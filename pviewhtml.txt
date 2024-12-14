@@ -1,0 +1,126 @@
+import React from 'react';
+import './home.css';
+import Img17 from './img17.png'; 
+import Img16 from './img16.png';
+import Img15 from './img15.png';
+import Img14 from './img14.png';
+import Img13 from './img13.png';
+import Img12 from './img12.png';
+import Img11 from './img11.png';
+import Img10 from './img10.png';
+
+function Home () {
+    return (
+        <>
+            <div className="container">
+                <div className="first">
+                <h1>Category...</h1>
+            <h3>Electronics</h3>
+            <h3>Electronics</h3>
+            <h3>Electronics</h3>
+            <h3>Electronics</h3>
+            <h3>Electronics</h3>
+            <h3>Electronics</h3>
+            <h3>Electronics</h3>
+            <h3>Electronics</h3>
+            <h3>Electronics</h3>
+            <h3>Electronics</h3>
+            <h3>Electronics</h3>
+            <h3>Electronics</h3>
+            <h3>Electronics</h3>
+            <h3>Electronics</h3>
+            <h3>Electronics</h3>
+            <h3>Electronics</h3>
+            <h3>Electronics</h3>
+
+                </div>
+                <div className="second">
+                    <div className="row1">
+                        <div className="div">
+                            <div className="cov">
+                                <img src={Img14} alt="smart TV panel" />
+                                <p>smart TV panel</p>
+                                <h3>$15,600</h3>
+                                <div className="btn">
+                                    <button>Edit</button><button className="red">Delete</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="div">
+                            <div className="cov">
+                                <img src={Img15} alt="Fridge" />
+                                <p>Fridge</p>
+                                <h3>$25,600</h3>
+                                <div className="btn">
+                                    <button>Edit</button><button className="red">Delete</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="div">
+                            <div className="cov">
+                                <img src={Img13} alt="smart TV panel" />
+                                <p>smart TV panel</p>
+                                <h3>$15,600</h3>
+                                <div className="btn">
+                                    <button>Edit</button><button className="red">Delete</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="div">
+                            <div className="cov">
+                                <img src={Img12} alt="Coconut" />
+                                <p>Coconut</p>
+                                <h3>$250</h3>
+                                <div className="btn">
+                                    <button>Edit</button><button className="red">Delete</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="div">
+                            <div className="cov">
+                                <img src={Img11} alt="Dry Fruits" />
+                                <p>Dry Fruits</p>
+                                <h3>$1200</h3>
+                                <div className="btn">
+                                    <button>Edit</button><button className="red">Delete</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="div">
+                            <div className="cov">
+                                <img src={Img10} alt="Vegetables" />
+                                <p>Vegetables</p>
+                                <h3>$383</h3>
+                                <div className="btn">
+                                    <button>Edit</button><button className="red">Delete</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="div">
+                            <div className="cov">
+                                <img src={Img17} alt="Heater" />
+                                <p>Heater</p>
+                                <h3>$12,853</h3>
+                                <div className="btn">
+                                    <button>Edit</button><button className="red">Delete</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="div">
+                            <div className="cov">
+                                <img src={Img16} alt="Cooler" />
+                                <p>Cooler</p>
+                                <h3>$18,600</h3>
+                                <div className="btn">
+                                    <button>Edit</button><button className="red">Delete</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
+    );
+}
+
+export default Home;

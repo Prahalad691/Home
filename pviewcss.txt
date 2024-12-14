@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+.first {
+    margin: 15px;
+    height: 95%;
+    width: 15%;
+    background-color: rgba(123, 116, 116, 0.812);
+    border-radius: 10px;
+}
+.second {
+    margin-top: 15px;
+    height: 95%;
+    width: 80%;
+    background-color: rgba(123, 116, 116, 0.812);
+    overflow-y: auto; /* Allow scrolling if content overflows */
+    border-radius: 10px;
+}
+.first h3 {
+    margin: 20px;
+}
+.first h1 {
+    margin-left: 15px;
+}
+.row1 {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 0px;
+    justify-content: space-evenly;
+}
+.row1 .div {
+    margin-top: 18px;
+    margin-bottom: 0px;
+    height: 46%;
+    width: 22.5%;
+    background-color: rgba(224, 217, 217, 0.792);
+    border-radius: 10px;
+}
+.div .cov{
+    margin: 12px;
+    height: 65%;
+    width: 90%;
+}
+.cov img{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.cov p{
+    margin-top: 5px;
+}
+.cov button{
+    background-color: rgb(62, 237, 62);
+    margin-top: 5px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    height: 38px;
+    font-size:18px;
+    font-weight: 700;
+    width: 45%;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: 0px 2px 8px rgba(16, 17, 16, 0.988);
+}
+.btn{
+    display: flex;
+    gap: 55px;
+}
+.btn .red{
+    background-color: red;
+}
